@@ -627,3 +627,38 @@ footer {
     opacity: 0.4;
     cursor: not-allowed;
 }
+/* Team Member Image */
+
+.member-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 20px; /* Makes circle */
+    border: 2px solid #22C55E;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(34,197,94,0.6);
+    transition: transform 0.3s ease;
+}
+
+.member-img:hover {
+    transform: scale(1.1);
+}
+/* Footer Social Icons */
+
+.social-links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 32px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #22C55E;
+    transform: scale(1.2);
+}
